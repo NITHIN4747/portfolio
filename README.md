@@ -124,16 +124,3 @@ Update the portfolio data in `src/data/portfolio.ts`:
 3. Make your changes
 4. Test thoroughly
 5. Submit a pull request
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 📞 Support
-
-For questions or support, please contact through the portfolio contact form or create an issue in the repository.
-
----
-
-**Built with ❤️ for showcasing software engineering talent**
-
