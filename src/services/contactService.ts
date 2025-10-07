@@ -1,11 +1,17 @@
 import { collection, addDoc, serverTimestamp } from 'firebase/firestore'
 import { db } from '../lib/firebase'
 import { ContactForm } from '../types'
+import { sendEmailNotification } from './emailService'
 
 export const submitContactForm = async (formData: ContactForm): Promise<void> => {
   try {
     console.log('Attempting to submit to Firebase...')
     console.log('Firebase db instance:', db)
+
+    // Send email notification first (non-blocking)
+    sendEmailNotification(formData).catch(err => 
+      console.error('Email notification failed:', err)
+    )
 
     // Add the form data to Firestore
     const docRef = await addDoc(collection(db, 'contacts'), {

@@ -59,7 +59,7 @@ export const experiences: Experience[] = [
     title: 'Software Engineering Intern',
     company: 'Praskla',
     location: 'Remote',
-    startDate: '2025-06',
+    startDate: '06-2025',
     endDate: 'Present',
     description: [
       'Developed and maintained React-based web applications serving 10,000+ users',
@@ -67,15 +67,15 @@ export const experiences: Experience[] = [
       'Collaborated with cross-functional teams using Agile methodologies',
       'Optimized application performance resulting in 25% faster load times',
     ],
-    technologies: ['React', 'Node.js', 'MongoDB', 'Git', 'GitHub'],
+    technologies: ['React', 'Node.js', 'MongoDB', 'Electron', 'Git', 'GitHub'],
   },
   {
     id: 'iorange-intern',
     title: 'Full Stack Web Developer',
     company: 'IORANGE INNOVATION',
     location: 'Tiruppur, TN',
-    startDate: '2024-07',
-    endDate: '2024-07',
+    startDate: '07-2024',
+    endDate: '07-2024',
     description: [
       'Achieved 85% growth for personalized web deploy using Full Stack skills',
       'Implemented an advanced development process that reduced coding errors by 20% and improved overall team productivity',

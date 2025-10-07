@@ -1,5 +1,5 @@
 import React from 'react'
-import { Heart, Github, Linkedin, Mail, ArrowUp } from 'lucide-react'
+import { Github, Linkedin, Mail, ArrowUp } from 'lucide-react'
 import { Button } from '@/components/ui/button.jsx'
 import { socialLinks, navItems } from '../data/portfolio'
 
@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
             {/* Brand Section */}
             <div className="md:col-span-2">
               <h3 className="text-xl font-bold text-foreground mb-4">
-                Software Engineer Portfolio
+                NITHIN
               </h3>
               <p className="text-muted-foreground leading-relaxed mb-6 max-w-md">
                 Passionate about building innovative solutions with modern technologies. 
@@ -110,11 +110,6 @@ const Footer: React.FC = () => {
         {/* Bottom Bar */}
         <div className="py-6 border-t border-border">
           <div className="flex flex-col sm:flex-row items-center justify-between">
-            <div className="flex items-center text-sm text-muted-foreground mb-4 sm:mb-0">
-              <span>Made with</span>
-              <Heart className="h-4 w-4 text-red-500 mx-1" />
-              <span>By NITHIN</span>
-            </div>
             
             <div className="flex items-center space-x-4">
               <div className="text-sm text-muted-foreground">
