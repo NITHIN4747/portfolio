@@ -29,7 +29,13 @@ function App() {
           <p className="hero-lede">I&apos;m Nithin — an engineer focused on cloud infrastructure, automation and intelligent software that moves from idea to production.</p>
           <div className="hero-actions"><a className="button button-red" href="#work">EXPLORE WORK <ArrowUpRight size={18}/></a><a className="text-link" href="#contact">LET&apos;S CONNECT <ArrowUpRight size={16}/></a></div>
         </div>
-        <div className="hero-art"><div className="orbit orbit-one"/><div className="orbit orbit-two"/><div className="hero-card"><div className="card-top"><span>01 / ENGINEER</span><span>2026</span></div><div className="monogram">NK</div><div className="card-bottom"><span>SYSTEMS / CLOUD</span><span className="status"><i/> ONLINE</span></div></div><span className="float-label l1">AWS / 01</span><span className="float-label l2">CI/CD / 02</span><span className="float-label l3">AI / 03</span></div>
+        <div className="hero-art">
+          <div className="hero-panel"/>
+          <img className="profile-cutout" src="/profile.png" alt="Nithin K. — DevOps and Cloud Engineer" />
+          <div className="profile-meta"><span>01 / ENGINEER</span><span>2026</span></div>
+          <div className="profile-status"><i/> AVAILABLE TO BUILD</div>
+          <span className="float-label l1">AWS / 01</span><span className="float-label l2">CI/CD / 02</span><span className="float-label l3">AI / 03</span>
+        </div>
         <div className="hero-foot"><span>SCROLL TO EXPLORE</span><i/><span>01 — 06</span></div>
       </section>
 
